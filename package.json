@@ -1,0 +1,13 @@
+{
+  "name": "ejemplo-reflux",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "reflux": "^0.2.8"
+  },
+  "scripts": {
+    "build": "browserify -t babelify app.js > build.js"
+  }
+}

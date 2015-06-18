@@ -16,18 +16,20 @@ var ImageStore = Reflux.createStore({
     },
 
     fetchList: function() {
-        $.ajax({
-            url: this.sourceUrl,
-            dataType: 'jsonp',
-            jsonpCallback: 'jsonFlickrFeed',
-            cache: false,
-            context: this,
-            success: function(data) {
-                console.log('fetch complete');
-                this.imagelist = data.items;
-                this.trigger(this.imagelist);
-            }
-        });
+      let tags = [ 'meme', 'cats', 'food', 'nature', 'peoeple', 'cities', 'sport', 'travel', 'cars' ];
+      let randomTag = tags[Math.floor(Math.random()*tags.length)];
+      $.ajax({
+          url: this.sourceUrl + `&tag=${randomTag}`,
+          dataType: 'jsonp',
+          jsonpCallback: 'jsonFlickrFeed',
+          cache: false,
+          context: this,
+          success: function(data) {
+              console.log('fetch complete');
+              this.imagelist = data.items;
+              this.trigger(this.imagelist);
+          }
+      });
     }
 });
 

@@ -14,7 +14,7 @@ var ImageGrid = React.createClass({
         return <div> 
           {
             this.state.imagestore.map(function (image) {
-              return <div>
+              return <div className="image">
                 <a href={ image.link }>
                     <img src={ image.media.m }></img>
                 </a>

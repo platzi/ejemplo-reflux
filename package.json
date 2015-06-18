@@ -1,5 +1,7 @@
 {
   "name": "ejemplo-reflux",
+  "author": "slifszyc",
+  "repository": "https://github.com/platzi/ejemplo-reflux"
   "dependencies": {
     "babelify": "^6.1.2",
     "browserify": "^10.2.4",

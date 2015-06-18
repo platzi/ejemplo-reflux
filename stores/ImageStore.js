@@ -16,7 +16,7 @@ var ImageStore = Reflux.createStore({
     },
 
     fetchList: function() {
-      let tags = [ 'meme', 'cats', 'food', 'nature', 'peoeple', 'cities', 'sport', 'travel', 'cars' ];
+      let tags = [ 'meme', 'cats', 'food', 'nature', 'cities', 'sport', 'travel', 'cars' ];
       let randomTag = tags[Math.floor(Math.random()*tags.length)];
       $.ajax({
           url: this.sourceUrl + `&tag=${randomTag}`,

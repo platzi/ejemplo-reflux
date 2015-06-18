@@ -2,6 +2,8 @@
 
 Este es un ejemplo de la arquitectura [Reflux](https://github.com/spoike/refluxjs), inspirada en [Flux](https://facebook.github.io/flux/).
 
+Autor: [Sacha Lifszyc](https://github.com/slifszyc) | [@slifszyc](http://twitter.com/slifszyc) | sacha.lifszyc@gmail.com
+
 ## Instrucciones
 
 Clonar el repo con el comando:
@@ -64,5 +66,3 @@ Más info [en este link](http://spoike.ghost.io/deconstructing-reactjss-flux/)
      ^                                      │
      └──────────────────────────────────────┘
 ```
-
-Autor: [Sacha Lifszyc](https://github.com/slifszyc) | [@slifszyc](http://twitter.com/slifszyc)

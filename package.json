@@ -1,11 +1,12 @@
 {
   "name": "ejemplo-reflux",
+  "version": "0.0.1",
   "author": {
     "github": "github.com/slifszyc",
     "twitter": "twitter.com/slifszyc",
-    "gmail": "sacha.lifszyc@gmail.com",
+    "gmail": "sacha.lifszyc@gmail.com"
   },
-  "repository": "https://github.com/platzi/ejemplo-reflux"
+  "repository": "https://github.com/platzi/ejemplo-reflux",
   "dependencies": {
     "babelify": "^6.1.2",
     "browserify": "^10.2.4",

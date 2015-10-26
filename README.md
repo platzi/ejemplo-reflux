@@ -36,7 +36,7 @@ Cuando nuevos datos entran en el sistema (ya sea a través de un usuario que hac
 Las acciones se identifican mediante un atributo type.
 Cuando todas las tiendas reciben la acción, que suelen utilizar este atributo para determinar si y cómo deben responder a ella.
 
-### Stores (Depoósitos)
+### Stores (Depósitos)
 
 Los Stores contienen el estado de la aplicación y la lógica.
 Son algo similar a un modelo en una MVC tradicional, pero administran el estado de muchos objetos - que no representan un solo registro de datos como hacen los modelos ORM.

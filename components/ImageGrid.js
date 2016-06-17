@@ -4,7 +4,7 @@
 
 import React from 'react';
 import Reflux from 'reflux';
-import ImageStore from '../stores/imagestore';
+import ImageStore from '../stores/ImageStore';
 
 var ImageGrid = React.createClass({
   mixins: [Reflux.connect(ImageStore, 'imagestore')],
